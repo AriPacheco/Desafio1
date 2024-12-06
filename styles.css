@@ -1,0 +1,104 @@
+/* Estilização para a página do filme */
+
+/* Reseta os estilos padrão */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 0 20px;
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffbf00; /* Adicione uma cor de fundo ao cabeçalho */
+    padding: 10px 20px;
+}
+
+.logo {
+    max-height: 50px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Conteúdo Principal */
+main {
+    margin: 20px 0;
+    padding-left: 0; /* Garantir que o conteúdo não tenha preenchimento à esquerda */
+    padding-right: 0; /* Garantir que o conteúdo não tenha preenchimento à direita */
+}
+
+section {
+    margin-bottom: 20px;
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+section h1, section h2, section h3 {
+    color: #333;
+}
+
+figure {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.poster {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+}
+
+figcaption {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.detalhes-img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+.gallery-img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #ffbf00; /* Adicione uma cor de fundo ao rodapé */
+    color: rgb(10, 10, 10);
+    margin-top: 20px;
+}
